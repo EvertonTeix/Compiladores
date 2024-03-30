@@ -14,13 +14,13 @@ int lexer(char *lexema)
 
     while (lexema[i] != '\0') {
         if (!isdigit(lexema[i]) && lexema[i] != ',') {
-            return 8; // Caractere inválido
+            return 8;
         }
 
         if (lexema[i] == ',') {
             quantas_virgulas++;
             if (quantas_virgulas > 1) {
-                return 8; // Mais de uma vírgula encontrada
+                return 8;
             }
         }
 
@@ -28,9 +28,9 @@ int lexer(char *lexema)
     }
 
     if (quantas_virgulas <= 1) {
-        return 7; // Número float válido
+        return 7;
     } else {
-        return 6; // Número inteiro válido
+        return 6;
     }
 
     }else if (lexema[0] == '+'){
@@ -45,5 +45,31 @@ int lexer(char *lexema)
     }else if (lexema[0] == '*'){
         return 5;
 
+    }else if(lexema[0] == ','){
+        int quantidade_virgulas = 1;
+        int i = 1;
+
+        if(lexema[i] == '\0'){
+            return 8;
+        }
+
+        while (lexema[i] != '\0')
+        {
+            if (lexema[i] == ',') {
+                quantidade_virgulas++;
+                if (quantidade_virgulas > 1) {
+                    return 8; 
+                }
+
+                return 8;
+            }
+
+            i++;
+        }
+
+        if (quantidade_virgulas <= 1) {
+        return 7; 
+    }
+        
     }
 }
