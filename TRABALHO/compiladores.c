@@ -3,35 +3,50 @@
 #include <ctype.h>
 #include "compiladores.h"
 
-int lexer(char *lexema)
-{
+int lexer(char *lexema){
+
     if (isalpha(lexema[0])){
+
+        int i = 1;
+
+        while(lexema[i] != 0){
+            if(lexema[i] == '+' || lexema[i] == '-' || lexema[i] == '*' || lexema[i] == '/'){
+                return 8;
+            }
+
+            i++;
+        }
+
         return 1;
 
     }else if (isdigit(lexema[0])){
-    int i = 1;
-    int quantas_virgulas = 0;
 
-    while (lexema[i] != '\0') {
-        if (!isdigit(lexema[i]) && lexema[i] != ',') {
-            return 8;
-        }
+        int i = 1;
+        int j = 1;
+        int quantas_virgulas = 0;
+        
 
-        if (lexema[i] == ',') {
-            quantas_virgulas++;
-            if (quantas_virgulas > 1) {
+
+        while (lexema[i] != '\0') {
+            if (!isdigit(lexema[i]) && lexema[i] != ',') {
                 return 8;
             }
+
+            if (lexema[i] == ',') {
+                quantas_virgulas++;
+                if (quantas_virgulas > 1) {
+                    return 8;
+                }
+            }
+
+            i++;
         }
 
-        i++;
-    }
-
-    if (quantas_virgulas <= 1) {
-        return 7;
-    } else {
-        return 6;
-    }
+        if (quantas_virgulas < 1) {
+            return 6;
+        } else {
+            return 7;
+        }
 
     }else if (lexema[0] == '+'){
         return 2;
@@ -68,7 +83,7 @@ int lexer(char *lexema)
         }
 
         if (quantidade_virgulas <= 1) {
-        return 7; 
+            return 7; 
     }
         
     }

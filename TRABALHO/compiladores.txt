@@ -6,7 +6,6 @@ agora vou tntar todos os casos que eu conseguir:
 1
 515
 151151
-
 111r1r1rrrrrr
 ewhgeyebhgvyeubei
 eeeeeee
@@ -18,6 +17,12 @@ eeeeee9999
 1,
 ,0
 1,111,1
-
-
 ,,
+lemuel
+everton:
+
+
+int y 5
+int x 5 * y
+
+result x
