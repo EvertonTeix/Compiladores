@@ -10,7 +10,7 @@ int lexer(char *lexema){
         int i = 1;
 
         while(lexema[i] != 0){
-            if(lexema[i] == '+' || lexema[i] == '-' || lexema[i] == '*' || lexema[i] == '/'){
+            if(!isalpha(lexema[i]) && lexema[i] != '_'){
                 return 8;
             }
 
@@ -22,7 +22,6 @@ int lexer(char *lexema){
     }else if (isdigit(lexema[0])){
 
         int i = 1;
-        int j = 1;
         int quantas_virgulas = 0;
         
 
