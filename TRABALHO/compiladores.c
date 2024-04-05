@@ -9,7 +9,12 @@ int lexer(char *lexema){
 
         int i = 1;
 
-        while(lexema[i] != 0){
+        while(lexema[i] != '\0') {
+
+            if(isalpha(lexema[i]) || isalnum(lexema[i])){
+                return 1;
+            }
+
             if(!isalpha(lexema[i]) && lexema[i] != '_'){
                 return 8;
             }
@@ -17,23 +22,22 @@ int lexer(char *lexema){
             i++;
         }
 
-        return 1;
 
     }else if (isdigit(lexema[0])){
 
         int i = 1;
-        int quantas_virgulas = 0;
+        int quantidade_ponto = 0;
         
 
 
         while (lexema[i] != '\0') {
-            if (!isdigit(lexema[i]) && lexema[i] != ',') {
+            if (!isdigit(lexema[i]) && lexema[i] != '.') {
                 return 8;
             }
 
-            if (lexema[i] == ',') {
-                quantas_virgulas++;
-                if (quantas_virgulas > 1) {
+            if (lexema[i] == '.') {
+                quantidade_ponto++;
+                if (quantidade_ponto > 1) {
                     return 8;
                 }
             }
@@ -41,26 +45,26 @@ int lexer(char *lexema){
             i++;
         }
 
-        if (quantas_virgulas < 1) {
+        if (quantidade_ponto < 1) {
             return 6;
         } else {
             return 7;
         }
 
-    }else if (lexema[0] == '+'){
+    }else if (lexema[0] == '+' && lexema[1] == '\0'){
         return 2;
 
-    }else if (lexema[0] == '-'){
+    }else if (lexema[0] == '-' && lexema[1] == '\0'){
         return 3;
 
-    }else if (lexema[0] == '/'){
+    }else if (lexema[0] == '/' && lexema[1] == '\0'){
         return 4;
 
-    }else if (lexema[0] == '*'){
+    }else if (lexema[0] == '*' && lexema[1] == '\0'){
         return 5;
 
-    }else if(lexema[0] == ','){
-        int quantidade_virgulas = 1;
+    }else if(lexema[0] == '.'){
+        int quantidade_ponto = 1;
         int i = 1;
 
         if(lexema[i] == '\0'){
@@ -69,9 +73,9 @@ int lexer(char *lexema){
 
         while (lexema[i] != '\0')
         {
-            if (lexema[i] == ',') {
-                quantidade_virgulas++;
-                if (quantidade_virgulas > 1) {
+            if (lexema[i] == '.' ) {
+                quantidade_ponto++;
+                if (quantidade_ponto > 1) {
                     return 8; 
                 }
 
@@ -81,7 +85,7 @@ int lexer(char *lexema){
             i++;
         }
 
-        if (quantidade_virgulas <= 1) {
+        if (quantidade_ponto <= 1) {
             return 7; 
     }
         

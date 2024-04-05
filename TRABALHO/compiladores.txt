@@ -1,28 +1,35 @@
-Testando o trabalho muitas vezes somente com palavra identificador
-agora vou tntar todos os casos que eu conseguir:
-1
-2
-2
-1
-515
-151151
-111r1r1rrrrrr
-ewhgeyebhgvyeubei
-eeeeeee
-eeeeeeeeee
-eeeeee9999
-/ * + - + - + - +
-&&&&&
-1,1
-1,
-,0
-1,111,1
-,,
-lemuel
-everton:
-kesney_sousa
+30 1 2 3 4 5
 
-int y 5
-int x 5 * y
+1.0
+1.
+.6
+11111111111111.
 
-result x
+inteiro
+float123
+lexema
+quantidade_virgula
+LFA
+Compiladores
+
++
+-
+*
+/
+
+
+
+123eev
+
+1.111111111.0
+..0
+0..
+
+_teste
+
++/
+++
+//
+--
+-/
+**
