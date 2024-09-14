@@ -1,0 +1,5 @@
+Cidade 1 - (29,29)
+Cidade 2 - (28,29)
+Cidade 3 - (30,28)
+Cidade 4 - (20,25)
+Cidade 5 - (29,24)

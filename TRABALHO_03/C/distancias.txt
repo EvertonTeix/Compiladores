@@ -1,0 +1,30 @@
+
+Distâncias da Cidade 1 para todas as outras:
+Distância de Cidade 1 para Cidade 2: 1.00 km
+Distância de Cidade 1 para Cidade 3: 1.41 km
+Distância de Cidade 1 para Cidade 4: 9.85 km
+Distância de Cidade 1 para Cidade 5: 5.00 km
+
+Distâncias da Cidade 2 para todas as outras:
+Distância de Cidade 2 para Cidade 1: 1.00 km
+Distância de Cidade 2 para Cidade 3: 2.24 km
+Distância de Cidade 2 para Cidade 4: 8.94 km
+Distância de Cidade 2 para Cidade 5: 5.10 km
+
+Distâncias da Cidade 3 para todas as outras:
+Distância de Cidade 3 para Cidade 1: 1.41 km
+Distância de Cidade 3 para Cidade 2: 2.24 km
+Distância de Cidade 3 para Cidade 4: 10.44 km
+Distância de Cidade 3 para Cidade 5: 4.12 km
+
+Distâncias da Cidade 4 para todas as outras:
+Distância de Cidade 4 para Cidade 1: 9.85 km
+Distância de Cidade 4 para Cidade 2: 8.94 km
+Distância de Cidade 4 para Cidade 3: 10.44 km
+Distância de Cidade 4 para Cidade 5: 9.06 km
+
+Distâncias da Cidade 5 para todas as outras:
+Distância de Cidade 5 para Cidade 1: 5.00 km
+Distância de Cidade 5 para Cidade 2: 5.10 km
+Distância de Cidade 5 para Cidade 3: 4.12 km
+Distância de Cidade 5 para Cidade 4: 9.06 km

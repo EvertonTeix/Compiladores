@@ -1,0 +1,31 @@
+
+Arquivo de distancias no paradigma OO
+Distancias da Cidade 1 para todas as outras:
+Distancia de Cidade 1 para Cidade 2: 1,00 km
+Distancia de Cidade 1 para Cidade 3: 1,41 km
+Distancia de Cidade 1 para Cidade 4: 9,85 km
+Distancia de Cidade 1 para Cidade 5: 5,00 km
+
+Distancias da Cidade 2 para todas as outras:
+Distancia de Cidade 2 para Cidade 1: 1,00 km
+Distancia de Cidade 2 para Cidade 3: 2,24 km
+Distancia de Cidade 2 para Cidade 4: 8,94 km
+Distancia de Cidade 2 para Cidade 5: 5,10 km
+
+Distancias da Cidade 3 para todas as outras:
+Distancia de Cidade 3 para Cidade 1: 1,41 km
+Distancia de Cidade 3 para Cidade 2: 2,24 km
+Distancia de Cidade 3 para Cidade 4: 10,44 km
+Distancia de Cidade 3 para Cidade 5: 4,12 km
+
+Distancias da Cidade 4 para todas as outras:
+Distancia de Cidade 4 para Cidade 1: 9,85 km
+Distancia de Cidade 4 para Cidade 2: 8,94 km
+Distancia de Cidade 4 para Cidade 3: 10,44 km
+Distancia de Cidade 4 para Cidade 5: 9,06 km
+
+Distancias da Cidade 5 para todas as outras:
+Distancia de Cidade 5 para Cidade 1: 5,00 km
+Distancia de Cidade 5 para Cidade 2: 5,10 km
+Distancia de Cidade 5 para Cidade 3: 4,12 km
+Distancia de Cidade 5 para Cidade 4: 9,06 km
