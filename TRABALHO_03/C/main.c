@@ -10,7 +10,7 @@ void printMemoryUsage() {
     PROCESS_MEMORY_COUNTERS memCounter;
     if (GetProcessMemoryInfo(GetCurrentProcess(), &memCounter, sizeof(memCounter))) {
         double memoryUsedMB = memCounter.WorkingSetSize / (1024.0 * 1024.0);  // Converter para MB
-        printf("Uso de memória: %.2f MB\n", memoryUsedMB);
+        printf("Uso de memoria: %.2f MB\n", memoryUsedMB);
     } else {
         printf("Erro ao obter informações de memória.\n");
     }
@@ -64,14 +64,10 @@ int main() {
     printf("\nMelhor caminho usando vizinho mais proximo:\n");
     encontrarMelhorCaminhoVizinhoMaisProximo(cidades, numero_total);
 
-    // Exibir todos os caminhos e distâncias
-    printf("\nTodos os caminhos e distâncias:\n");
-    mostrarTodosCaminhos(cidades, numero_total);
-
     // Medir o tempo de fim do programa
     end = clock();
     cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
-    printf("Tempo de execução: %f segundos\n", cpu_time_used);
+    printf("Tempo de execucao: %f segundos\n", cpu_time_used);
 
     // Medir o uso de memória em MB
     printMemoryUsage();

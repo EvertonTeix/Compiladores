@@ -1,31 +1,72 @@
+Distâncias da Cidade 1 para todas as outras:
+Distância entre Cidade 1 e Cidade 2: 17,09 km
+Distância entre Cidade 1 e Cidade 3: 11,18 km
+Distância entre Cidade 1 e Cidade 4: 13,04 km
+Distância entre Cidade 1 e Cidade 5: 21,26 km
+Distância entre Cidade 1 e Cidade 6: 16,28 km
+Distância entre Cidade 1 e Cidade 7: 9,00 km
+Distância entre Cidade 1 e Cidade 8: 13,04 km
 
-Arquivo de distancias no paradigma OO
-Distancias da Cidade 1 para todas as outras:
-Distancia de Cidade 1 para Cidade 2: 1,00 km
-Distancia de Cidade 1 para Cidade 3: 1,41 km
-Distancia de Cidade 1 para Cidade 4: 9,85 km
-Distancia de Cidade 1 para Cidade 5: 5,00 km
+Distâncias da Cidade 2 para todas as outras:
+Distância entre Cidade 2 e Cidade 1: 17,09 km
+Distância entre Cidade 2 e Cidade 3: 18,68 km
+Distância entre Cidade 2 e Cidade 4: 5,83 km
+Distância entre Cidade 2 e Cidade 5: 8,00 km
+Distância entre Cidade 2 e Cidade 6: 7,81 km
+Distância entre Cidade 2 e Cidade 7: 9,22 km
+Distância entre Cidade 2 e Cidade 8: 10,30 km
 
-Distancias da Cidade 2 para todas as outras:
-Distancia de Cidade 2 para Cidade 1: 1,00 km
-Distancia de Cidade 2 para Cidade 3: 2,24 km
-Distancia de Cidade 2 para Cidade 4: 8,94 km
-Distancia de Cidade 2 para Cidade 5: 5,10 km
+Distâncias da Cidade 3 para todas as outras:
+Distância entre Cidade 3 e Cidade 1: 11,18 km
+Distância entre Cidade 3 e Cidade 2: 18,68 km
+Distância entre Cidade 3 e Cidade 4: 18,03 km
+Distância entre Cidade 3 e Cidade 5: 18,25 km
+Distância entre Cidade 3 e Cidade 6: 13,04 km
+Distância entre Cidade 3 e Cidade 7: 15,56 km
+Distância entre Cidade 3 e Cidade 8: 9,00 km
 
-Distancias da Cidade 3 para todas as outras:
-Distancia de Cidade 3 para Cidade 1: 1,41 km
-Distancia de Cidade 3 para Cidade 2: 2,24 km
-Distancia de Cidade 3 para Cidade 4: 10,44 km
-Distancia de Cidade 3 para Cidade 5: 4,12 km
+Distâncias da Cidade 4 para todas as outras:
+Distância entre Cidade 4 e Cidade 1: 13,04 km
+Distância entre Cidade 4 e Cidade 2: 5,83 km
+Distância entre Cidade 4 e Cidade 3: 18,03 km
+Distância entre Cidade 4 e Cidade 5: 13,34 km
+Distância entre Cidade 4 e Cidade 6: 11,18 km
+Distância entre Cidade 4 e Cidade 7: 4,12 km
+Distância entre Cidade 4 e Cidade 8: 11,66 km
 
-Distancias da Cidade 4 para todas as outras:
-Distancia de Cidade 4 para Cidade 1: 9,85 km
-Distancia de Cidade 4 para Cidade 2: 8,94 km
-Distancia de Cidade 4 para Cidade 3: 10,44 km
-Distancia de Cidade 4 para Cidade 5: 9,06 km
+Distâncias da Cidade 5 para todas as outras:
+Distância entre Cidade 5 e Cidade 1: 21,26 km
+Distância entre Cidade 5 e Cidade 2: 8,00 km
+Distância entre Cidade 5 e Cidade 3: 18,25 km
+Distância entre Cidade 5 e Cidade 4: 13,34 km
+Distância entre Cidade 5 e Cidade 6: 5,39 km
+Distância entre Cidade 5 e Cidade 7: 15,65 km
+Distância entre Cidade 5 e Cidade 8: 9,49 km
 
-Distancias da Cidade 5 para todas as outras:
-Distancia de Cidade 5 para Cidade 1: 5,00 km
-Distancia de Cidade 5 para Cidade 2: 5,10 km
-Distancia de Cidade 5 para Cidade 3: 4,12 km
-Distancia de Cidade 5 para Cidade 4: 9,06 km
+Distâncias da Cidade 6 para todas as outras:
+Distância entre Cidade 6 e Cidade 1: 16,28 km
+Distância entre Cidade 6 e Cidade 2: 7,81 km
+Distância entre Cidade 6 e Cidade 3: 13,04 km
+Distância entre Cidade 6 e Cidade 4: 11,18 km
+Distância entre Cidade 6 e Cidade 5: 5,39 km
+Distância entre Cidade 6 e Cidade 7: 12,17 km
+Distância entre Cidade 6 e Cidade 8: 4,12 km
+
+Distâncias da Cidade 7 para todas as outras:
+Distância entre Cidade 7 e Cidade 1: 9,00 km
+Distância entre Cidade 7 e Cidade 2: 9,22 km
+Distância entre Cidade 7 e Cidade 3: 15,56 km
+Distância entre Cidade 7 e Cidade 4: 4,12 km
+Distância entre Cidade 7 e Cidade 5: 15,65 km
+Distância entre Cidade 7 e Cidade 6: 12,17 km
+Distância entre Cidade 7 e Cidade 8: 11,18 km
+
+Distâncias da Cidade 8 para todas as outras:
+Distância entre Cidade 8 e Cidade 1: 13,04 km
+Distância entre Cidade 8 e Cidade 2: 10,30 km
+Distância entre Cidade 8 e Cidade 3: 9,00 km
+Distância entre Cidade 8 e Cidade 4: 11,66 km
+Distância entre Cidade 8 e Cidade 5: 9,49 km
+Distância entre Cidade 8 e Cidade 6: 4,12 km
+Distância entre Cidade 8 e Cidade 7: 11,18 km
+
